@@ -49,6 +49,10 @@ h3 {
   background: #6f4037 !important;
 }
 
+.text{
+    text-align: justify;
+}
+
 .parallax-container {
   min-height: 380px;
   height: auto;
