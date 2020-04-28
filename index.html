@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="CafeKing is a premium Coffee service with the mission to bring affordable and healthy drink to as many people as possible.">
+
+    <!-- M icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/site.webmanifest">
+	<link rel="shortcut icon" href="favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>CafeKing - The Perfect Cafe!</title>
+
+</head>
+<body>
+
+
+	<section class="fnavbar">
+		<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="#" class="brand-logo">CafeKing</a>
+		      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a href="#" class="hvr-grow">Home</a></li>
+		        <li><a href="#about" class="hvr-grow">About Us</a></li>
+		        <li><a href="#coffees" class="hvr-grow">Coffees</a></li>
+		        <li><a href="#" onclick="toggleModal1();" class="hvr-grow">Surprise!</a></li>
+		        <li><a href="#contact" class="hvr-grow">Contact</a></li>
+		        
+		      </ul>
+		    </div>
+		  </nav>
+		</div>
+
+		  <ul class="sidenav" id="mobile-demo">
+		    <li><a href="#" onclick="toggleModal();">Home</a></li>
+	        <li><a href="#" onclick="toggleModal();">About Us</a></li>
+	        <li><a href="#" onclick="toggleModal();">Coffees</a></li>
+	        <li><a href="#" onclick="toggleModal();">Surprise!</a></li>
+	        <li><a href="#" onclick="toggleModal();">Contact</a></li>
+		  </ul>
+	</section>
+
+
+	<section class="fslider">
+		<div class="slider">
+			<ul class="slides">
+		    <li>
+		    	<img src="images/banner1.png" alt="banner1">
+		    	<div class="caption center-align white-text">  
+		        <h3>CafeKing - The Quality Cafe!</h3>  
+		        <h5 class="light white-text text-lighten-3"><strong>We serve quality coffee. Try us and then buy us!</strong></h5>  
+		      </div>  
+		    </li>
+
+		    <li>
+		    	<img src="images/banner2.png" alt="banner2">
+		    	<div class="caption center-align white-text">  
+		        <h3>Exceptional Service at Your Door!</h3>  
+		        <h5 class="light white-text text-lighten-3"><strong>We deliver Quality And We're doing this for years!</strong></h5>  
+		      </div>  
+		    </li>
+		    </ul>
+		   
+	  </div>
+	</section>
+
+
+	<section class="fdes">
+		<div class="section white center">
+			<h2 class="header"><span style="font-family: Bree Serif" >CafeKing</span> - The Ultimate Quality Coffee!</h2>
+		      <div class="row container center">
+		        <div class="col center l8 s12">
+		        	<p>We’re not just passionate purveyors of coffee, but everything else that goes with a full and rewarding coffeehouse experience. We also offer a selection of premium teas to please the taste buds. And the music you hear in store is chosen for its artistry and appeal.
+						It’s not unusual to see people coming to CafeKing to chat, meet up or even work. We’re a neighborhood gathering place, a part of the daily routine – and we couldn’t be happier about it. Get to know us and you’ll see: we are so much more than what we brew.
+						We make sure everything we do is through the lens of humanity – from our commitment to the highest quality coffee in the world, to the way we engage with our customers and communities to do business responsibly.From the beginning, CafeKing set out to be a different kind of company. One that not only celebrated coffee and the rich tradition, but that also brought a feeling of connection.
+						Our mission to inspire and nurture the human spirit – one person, one cup, and one neighborhood at a time.</p>
+		        </div>
+		        <div class="col center l4 s12">
+		        	<img height="200" width="auto" style="object-fit: contain;" src="images/coffee.png" alt="Coffee cup">
+		        </div>
+		        
+			  </div>
+			  </div>
+	</section>
+
+
+	<section class="fcards" id="coffees">
+		<div class="row" style="padding-left: 50px; padding-right: 50px;">
+			<div class="col s12 m12 l4" style="padding: 50px 5px;">
+				<div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="images/item1.jpg" alt="item1">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Cappuccino<i class="material-icons right">more_vert</i></span>
+				      <div class="card-content">
+			          <p>Wanna check out all the coffees we offer ? Explore Now!</p>
+			        </div>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Cappuccino<i class="material-icons right">close</i></span>
+				      <p>A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, and flavoring with cinnamon or chocolate powder.</p>
+				    </div>
+				  </div>
+			</div>
+			<div class="col s12 m12 l4" style="padding: 50px 5px;">
+				<div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="images/item2.jpg" alt="item2">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Latte<i class="material-icons right">more_vert</i></span>
+				      <div class="card-content">
+			          <p>Wanna check out all the coffees we offer ? Explore Now!</p>
+			        </div>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Latte<i class="material-icons right">close</i></span>
+				      <p>Caffe latte is a coffee drink made with espresso and steamed milk. The word comes from the Italian caffè e latte, caffelatte or caffellatte, which means "coffee & milk".</p>
+				    </div>
+				  </div>
+			</div>
+			<div class="col s12 m12 l4" style="padding: 50px 5px;">
+				<div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="images/item3.jpg" alt="item3">
+				    </div>
+				    <div class="card-content">
+				      <span class="card-title activator grey-text text-darken-4">Espresso<i class="material-icons right">more_vert</i></span>
+				      <div class="card-content">
+			          <p>Wanna check out all the coffees we offer ? Explore Now!</p>
+			        </div>
+				    </div>
+				    <div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4">Espresso<i class="material-icons right">close</i></span>
+				      <p>Espresso is a coffee-making method of Italian origin, in which a small amount of nearly boiling water is forced under pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roasts.</p>
+				    </div>
+				  </div>
+			</div>
+		</div>
+		<div class="row center" style="margin-bottom: 50px;">
+			<div class="col s12">
+				<a href="#" onclick="toggleModal();" class="waves-effect waves-light btn" style="background: #6f4037 !important;">Explore More &raquo;</a>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax">
+		<img src="images/caro2.png" alt="Unsplashed background img 2" ></div>
+  </div>
+
+  <section class="fabout" id="about">
+		<div class="section white center">
+		      <div class="row container">
+		        <h2 class="header">ABOUT US</h2>
+		        <p class="grey-text text-darken-3 lighten-3">CafeKing, is India’s favourite hangout for coffee and conversations. Popularly known as CafeKing, we strive to provide the best experience to our customers. Our coffees are sourced from thousands of small coffee planters, who made us who we are today and we're glad to be a part of their lives. We opened our first cafe in 2012 at Newtown in kolkatta – the youth and the young at heart immediately took to the cafe, and it continues to be one of the most happening places in the city. CAfeKing  is a “hangout” spot to the youth where they meet people, make conversations, and have a whole lot of fun over steaming cups of great coffee.It's been an exciting journey since then to becoming the largest organised retail cafe chain in the country. We’re also present in Bangalore, Chennai and Hyderabad, so if your travel takes you there, do stop by our outlets to get a taste from back home!</p>
+				<a href="#" onclick="toggleModal();" class="waves-effect waves-light btn" style="background: #6f4037 !important;">Read More &raquo;</a>
+			  </div>
+			  </div>
+	</section>
+
+
+	<section class="fservices">
+		<div class="row" style="padding-left: 50px; padding-right: 50px;">
+			<div class="col s12 l4 center" style="padding: 50px 50px;">
+				<i class="large material-icons icon-coffee" >local_dining</i>
+				<h5 class="header" >Variety of Coffees</h5>
+			</div>
+			<div class="col s12 l4 center" style="padding: 50px 50px;">
+				<i class="large material-icons icon-coffee" >watch_later</i>
+				<h5 class="header" >24x7 Open Cafe</h5>
+			</div>
+			<div class="col s12 l4 center" style="padding: 50px 50px;">
+				<i class="large material-icons icon-coffee" >favorite</i>
+				<h5 class="header" >Excellent Quality</h5>
+			</div>
+		</div>
+	</section>
+
+<hr>
+	
+	<section class="freviews">
+
+		<div class="section white center">
+			<h3 class="header">What Our Customers Say</h3>
+			<div class="carousel myreviews" style="margin-bottom: 35px;">
+			    <a class="carousel-item" href="#one!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"This is the best Coffee ever!"<br>-<br><strong>Sampath</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			    <a class="carousel-item" href="#two!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"I Love The Vanilla Latte of here!"<br>-<br> <strong>Roshan</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			    <a class="carousel-item" href="#three!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"This Cafe is having the best environment!"<br>-<br> <strong>Anirudh</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			    <a class="carousel-item" href="#four!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"I love this Cafe very much and their coffees!"<br>-<br> <strong>Farhan</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			    <a class="carousel-item" href="#five!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"Wow! So nice coffees in so much cheap prices!"<br>-<br> <strong>Riya</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			    <a class="carousel-item" href="#six!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"Awesome cafe in our area! Love it!"<br>-<br> <strong>Barkha singh</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			    <a class="carousel-item" href="#seven!">
+			    	<div class="row">
+					    <div class="col s12">
+					      <div class="card-panel teal" style="background: #6f4537 !important;">
+					        <span class="white-text">"This is the best coffee I ever had in my life!"<br>-<br> <strong>Ayush Mehta</strong>
+					        </span>
+					      </div>
+					    </div>
+					  </div>
+			    </a>
+			  </div>
+		</div>
+	</section>
+
+	<section class="ffooter" id="contact">
+		<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h4 class="white-text">Contact US</h4>
+                <p class="grey-text text-lighten-4">
+					<i class="tiny material-icons white-text">business</i>
+					123, New Town, Kolkata</p>
+                <p class="grey-text text-lighten-4">
+					<i class="tiny material-icons white-text">call</i>
+					 +91-9988776655</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h4 class="white-text">Social Media Links</h4>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#" onclick="toggleModal();">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#" onclick="toggleModal();">Instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#" onclick="toggleModal();">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            &copy; April 2020 Copyright @ CafeKing
+            <a class="grey-text text-lighten-4 right" href="#!">Made in India with <span><i class="tiny material-icons" style="color: red;">favorite</i></span> by Mahith Chigurupati</a>
+            </div>
+          </div>
+        </footer>
+	</section>
+
+
+	<section class="infomodal">
+		<div id="modal3" class="modal">
+		    <div class="modal-content">
+		      <h4 id="info-modal-heading">Link Disabled</h4>
+		      <p id="info-modal-content">Sorry! The Link you're looking for is currently in development phase. So wait for some time till it comes live!</p>
+		    </div>
+		    <div class="modal-footer">
+		      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+		    </div>
+		  </div>
+
+		  <div id="modal4" class="modal">
+		    <div class="modal-content">
+		      <h4 id="info-modal-heading">Get 100% Cashback for First 100 Customers</h4>
+		      <p id="info-modal-content">Coupon code : FIRST100</p>
+		    </div>
+		    <div class="modal-footer">
+		      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+		    </div>
+		  </div>
+	  </section>
+
+
+	<!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+	
+	<!-- external js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+	
+	<!-- actual m script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+    <!-- custom js -->
+    <script src="js/loaders.js"></script>
+</body>
+</html>
